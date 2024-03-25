@@ -1,0 +1,28 @@
+.signUpPage{
+    display: flex;
+    flex-direction: row;
+
+}
+img{
+    width: 700px;
+    height: 645px;
+
+}
+.formElements{
+    display: flex;
+    flex-direction: column;
+}
+.formElements > input{
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #C4C4C4;
+    padding-left: 21px;
+    font-size: 16px;
+}
+.formElements > input::placeholder{
+    padding-left: 1px;
+    font-size: 16px;
+    color: #C4C4C4;
+}
