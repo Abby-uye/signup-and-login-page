@@ -2,7 +2,7 @@ import SignUp from "../Features/Auth/SignUp";
 import Login from "../Features/Auth/Login";
 export const Routes = [
     {
-        path: "/sign-up",
+        path: "/",
         element: <SignUp/>
     },
     {
